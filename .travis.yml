@@ -1,0 +1,7 @@
+language: ruby
+sudo: required
+services: docker
+script:
+  - docker build -t cloud-data-base .
+notifications:
+  email: false
